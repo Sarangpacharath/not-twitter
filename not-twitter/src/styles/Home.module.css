@@ -1,0 +1,17 @@
+.container {
+  /* Full page container */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 0 30px;
+}
+
+.postsContainer {
+  /* Container for all the posts with a max width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+}

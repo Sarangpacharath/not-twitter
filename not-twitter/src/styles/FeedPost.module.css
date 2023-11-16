@@ -1,0 +1,76 @@
+.feedPostContainer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: #8E8FFA;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  gap: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.feedPostHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.feedPostProfilePicture {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.feedPostProfileName {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2A2B2E;
+}
+
+.feedPostContent{
+  background-color: #7752FE;
+  border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.feedPostContentImage {
+  height: 256px;
+}
+
+.feedPostContentTitle {
+  font-size: 24px;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.feedPostContentDescription {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 15px;
+  overflow-x: scroll;
+}
+
+.feedPostFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  
+  color: #000;
+}
+
+.feedPostContentDescription::-webkit-scrollbar {
+  display: none;
+}
+
+
